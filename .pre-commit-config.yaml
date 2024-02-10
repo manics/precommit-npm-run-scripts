@@ -1,6 +1,6 @@
 repos:
-  - repo: https://github.com/manics/precommit-npm-run-scripts
-    rev: main
+  - repo: ./
+    rev: HEAD
     hooks:
       - id: npm-run-scripts
         args: [format]
