@@ -1,0 +1,14 @@
+{
+  "name": "precommit-npm-run-scripts",
+  "description": "precommit-npm-run-scripts",
+  "version": "0.1.0",
+  "bin": {
+    "npm-run-scripts": "src/npm-run-scripts.js"
+  },
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

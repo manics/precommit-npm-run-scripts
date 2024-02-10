@@ -1,0 +1,7 @@
+- id: npm-run-scripts
+  name: npm run scripts
+  entry: npm-run-scripts
+  language: node
+  pass_filenames: false
+  types: [file]
+  verbose: true
